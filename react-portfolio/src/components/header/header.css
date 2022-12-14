@@ -30,3 +30,30 @@ header {
     left: 0;
     bottom: 3rem;
 }
+
+.header__Socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/*insert me img css*/
+
+/* medium devices*/
+@media screen and (max-width: 1024px) {
+ header {
+    height: 68vh;
+ }
+}
+/* small devices*/
+@media screen and (max-width: 600px) {
+ header {
+    height: 100vh;
+ }
+
+ .header_socials {
+    display: none;
+ }
+    
+}
