@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
+/*import ME from "../../assets/*add me img";*/
+import HeaderSocials from './HeaderSocials';
 
 function header() {
   return (
@@ -10,6 +12,10 @@ function header() {
         <h1>Jorge Solis</h1>
         <h5 className="text-light">FullStack Developer</h5>
         <CTA/>
+        <HeaderSocials/>
+        <div className= "me">
+          {/* <img src={ME} alt="me" /> */}
+        </div>
       </div>
     </header>
   )
