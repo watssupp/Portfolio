@@ -39,6 +39,16 @@ header {
 }
 
 /*insert me img css*/
+.me {
+    background: linear-gradient(var(--color-primary), transparent );
+    width: 22rem; 
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+}
+
 
 /* medium devices*/
 @media screen and (max-width: 1024px) {
