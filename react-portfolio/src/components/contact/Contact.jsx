@@ -12,23 +12,23 @@ function Contact() {
         <div className="contact__option">
           <article className='contact__option'>
           <MdOutlineMail className='contact__option-icon'/>
-            <h4 className=''>email</h4>
+            <h4 className=''>Email</h4>
             
             <h5>jorgesolisruiz@gmail.com</h5>
-            <a href="mailto:jorgesolisruiz@gmail.com">send a message</a>
+            <a href="mailto:jorgesolisruiz@gmail.com">Send a message</a>
           </article>
           <article className='contact__option'>
           <AiFillLinkedin className='contact__option-icon'/>
             <h4 className=''>LinkedIn</h4>
             <h5>Jorge Solis</h5>
-            <a href="https://www.linkedin.com/in/jorge-solis-889689253/">send a message</a>
+            <a href="https://www.linkedin.com/in/jorge-solis-889689253/">Send a message</a>
           </article>
        </div>
-        <form action="">
-          <input type="text" name='name' placeholder='Jorge Solis' required/>
-          <input type="email" name='email' placeholder='jorgesolisruiz@gmail.com' required />
-          <textarea name="message" rows="7" placeholder='your message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send m</button>
+        <form >
+          <input type="text" name='name' placeholder='Your Full Name' required/>
+          <input type="email" name='email' placeholder='Your Email' required />
+          <textarea name="message" rows="7" placeholder='Your message' required></textarea>
+          <button type='submit' className='btn btn-primary'>Send message</button>
         </form>
       </div>
     </section >
