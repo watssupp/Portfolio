@@ -31,7 +31,7 @@ const About = () => {
           </article>
         </div>
         <p>
-              {/* insert about me info */}
+        I am a  full stack web developer, seeking exciting and educational opportunities to grow as a professional.Earned a certificate in Full Stack Software Development from the University of Texas at Austin. Prepared to problem solve any issue that comes my way.
               </p>
         <a href="#contact" className='btn btn-primary'>Contact</a>
       </div>
