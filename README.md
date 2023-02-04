@@ -18,5 +18,10 @@ Input this next step with in the terminal
 ```
 npm start
 ```
-Have fun and enjoy!
-Thank you for checking out my Portfolio
+## Technologies Use
+<p><a href="https://reactjs.org/">React</a></p>
+<p><a href="https://nodejs.org/">Node.js</a></p>
+<p><a href="https://getbootstrap.com/">Bootstrap</a></p>
+
+## Have fun and enjoy!
+## Thank you for checking out my Portfolio
